@@ -95,13 +95,19 @@ ul {
     background: url(images/background-desktop.svg) black;
   }
 
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+  }
+
   .badge-band {
-    /*size of image*/
+    /* size of image */
     width: 64px;
     height: 158px;
     position: absolute;
-    right: auto;
-    left: auto;
+    /* right: auto;
+    left: auto; */
     top: 0px;
   }
 
@@ -116,8 +122,12 @@ ul {
     height: 540px;
   }
 
+  #quebra-cracha {
+    margin-top: 16px;
+  }
+
   .avatar {
-    margin: 90px auto 0;
+    margin: 48px auto 0;
   }
 
   .avatar span {
