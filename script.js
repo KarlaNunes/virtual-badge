@@ -1,5 +1,5 @@
 const linksSocialMedia = {
-  youtube: 'maykbrito',
+  youtube: '#',
   facebook: 'karla.nunes.94009',
   instagram: 'karla_nunes15',
   twitter: 'karlaNunesDev',

@@ -105,6 +105,15 @@ ul {
   justify-content: center;
 }
 
+ul li a {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  transform: translateY(-8px);
+}
+
 /*========RESPONSIVE=========*/
 @media (min-width: 767px) {
   body {
