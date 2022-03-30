@@ -24,6 +24,20 @@ main {
   height: 100vh;
 }
 
+/*sumir com elementos da tela (sr-only)*/
+.badge-band,
+#quebra-cracha {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .container {
   max-width: 250px;
   margin-left: auto;
@@ -90,7 +104,7 @@ ul {
 }
 
 /*========RESPONSIVE=========*/
-@media (min-width: 960px) {
+@media (min-width: 767px) {
   body {
     background: url(images/background-desktop.svg) black;
   }
@@ -99,6 +113,19 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 95px;
+  }
+
+  /* aparecer elementos na tela (not-sr-only)*/
+  .badge-band,
+  #quebra-cracha {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
   }
 
   .badge-band {
