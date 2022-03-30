@@ -2,11 +2,13 @@
   margin: 0;
 }
 
-html,
-body {
+:root {
   --black: hsl(240, 6%, 13%);
   --gray: hsl(240, 9%, 89%);
+}
 
+html,
+body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased; /*fonte mais suave nos browsers webkit*/
