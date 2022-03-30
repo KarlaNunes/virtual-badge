@@ -133,8 +133,7 @@ ul {
     width: 64px;
     height: 158px;
     position: absolute;
-    /* right: auto;
-    left: auto; */
+
     top: 0px;
   }
 
@@ -182,18 +181,4 @@ ul {
     height: 100%;
     object-fit: cover;
   }
-
-  /*sumir com elementos da tela (sr-only)*/
-  /* .badge-band,
-  #quebra-cracha {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  } */
 }
